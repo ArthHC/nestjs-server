@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
+    return('Eu sei o que você fez no verão passado...');	
     return this.appService.getHello();
   }
 }
